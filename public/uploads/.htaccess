@@ -1,0 +1,6 @@
+# Evita ejecución de PHP en carpeta de uploads (Apache)
+<IfModule mod_authz_core.c>
+  <FilesMatch "\.(php|phtml|php5)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>

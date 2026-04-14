@@ -1,0 +1,10 @@
+web reg
+
+http://localhost/transporte/public/index.php?p=inicio
+
+admin
+
+http://localhost/transporte/public/admin/index.php
+
+Usuario: admin
+Contraseña: Admin2024!
